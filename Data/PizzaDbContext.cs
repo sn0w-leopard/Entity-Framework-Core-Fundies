@@ -17,7 +17,7 @@ namespace Entity_Framework_Core_Fundies.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=localhost;Database=Pizza;Integrated Security=false;User ID=sa;Password=adminADMIN!1;
+            optionsBuilder.UseSqlServer(@"Data Source=host.docker.internal,1443;Initial Catalog=Pizza; Integrated Security=False;TrustServerCertificate=True; User ID=sa;Password=adminADMIN!1;
 ");
         }
     }
