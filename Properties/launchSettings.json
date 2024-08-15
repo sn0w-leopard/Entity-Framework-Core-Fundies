@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Entity Framework Core Fundies": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
